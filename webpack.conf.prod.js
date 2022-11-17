@@ -6,7 +6,7 @@ const production = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
+                test: /\.s?css$/i,
                 use: [
                     {
                         loader: MiniCssExtractPlugin.loader,
@@ -18,6 +18,7 @@ const production = {
                             sourceMap: true,
                         }
                     },
+                    'sass-loader',
                 ],
             },
             {
