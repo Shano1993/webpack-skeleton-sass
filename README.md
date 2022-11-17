@@ -1,1 +1,1 @@
-# webpack-skeleton-sass
+# webpack-skeleton
